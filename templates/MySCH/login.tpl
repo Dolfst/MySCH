@@ -10,7 +10,7 @@
 			<a class="lbn" id="logbtn" href="#"><b><span class="fui-user"></span> {login}</b></a>
 			
 				<div id="logform" class="radial">
-					<ul class="reset loginenter nav nav-list">
+					<ul class="reset loginenter nav nav-list profile_link">
 		[admin-link]<li><a href="{admin-link}" target="_blank"><b>Админпанель</b></a></li>[/admin-link]
 					<li><a href="{profile-link}"><span class="fui-home"></span> Мой профиль</a></li>
                         <li class="lvsep"><a class="radial" href="{pm-link}"><span class="fui-mail"></span> Сообщений <span class="badge pull-right">{new-pm}</span></a></li>

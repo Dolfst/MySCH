@@ -1,0 +1,35 @@
+<style>
+img{
+display: block;
+width: 100% \9;
+max-width: 100%;
+height: auto;
+}
+</style>
+
+<div class="base shortstory">
+	<div class="dpad">
+		<h3 class="btl"><span class="fui-arrow-right"></span><a href="http://dayz-ussr.ru/blog/6-dobro-pozhalovat.html">Добро пожаловать</a></h3>
+        <small><div class="nav"><span class="fui-tag"></span> Категория: <a href="http://dayz-ussr.ru/blog/">Блог</a> | <span class="fui-eye"></span>  Просмотры: 70 | <span class="fui-calendar"></span>  Дата: <a href="http://dayz-ussr.ru/2014/11/18/" >18-11-2014, 21:52</a> | <span class="fui-bubble"></span>  Комментарии: <a href="http://dayz-ussr.ru/blog/6-dobro-pozhalovat.html#comment">1</a> <span class="fui-user"></span>  Автор: <a onclick="ShowProfile('Dolfst', 'http://dayz-ussr.ru/user/Dolfst/', '1'); return false;" href="http://dayz-ussr.ru/user/Dolfst/">Dolfst</a></div></small>
+		<div class="bhinfo">
+		
+           <small>
+           <div class="nav">			
+               <a onclick="return dropdownmenu(this, event, MenuNewsBuild('6', 'short'), '170px')" href="#"><span class="fui-new" title="Редактировать" alt="Редактировать"></span> Редактировать</a> | <a id="fav-id-6" onclick="doFavorites('6', 'plus', 1); return false;" href="http://dayz-ussr.ru/index.php?do=favorites&amp;doaction=add&amp;id=6"> <span class="fui-plus-circle" alt="Добавить в избранное"></span> В избранное </a> 			
+           </div>               
+           </small><br>
+					
+		</div>
+		<div class="maincont">
+			<div style="text-align:center;"><!--MBegin:http://dayz-ussr.ru/uploads/posts/2014-11/1416689017_32.jpg.png|--><a href="http://dayz-ussr.ru/uploads/posts/2014-11/1416689017_32.jpg.png" rel="highslide" class="highslide"><img src="http://dayz-ussr.ru/uploads/posts/2014-11/medium/1416689017_32.jpg.png" alt='Добро пожаловать' title='Добро пожаловать'  /></a><!--MEnd--></div><br /><br />Добро пожаловать на наш сайт. Мы рады, что вы уделили нам внимание, но к сожалению сайт еще не готов и находится в разработке. <!--smile:1f4bb--><img style="vertical-align: middle;border: none;" alt="1f4bb" src="http://dayz-ussr.ru/engine/data/emoticons/1f4bb.png" /><!--/smile-->
+			<div class="clr"></div>
+			
+		</div>
+	</div>
+	<div class="mlink">
+        <br>
+        <a href="http://dayz-ussr.ru/blog/6-dobro-pozhalovat.html"><span class="btn btn-lg btn-primary"><span class="fui-document"></span><b>Подробнее</b></span></a>	
+		
+		<div class="mlarrow">&nbsp;</div>		
+	</div>
+</div>

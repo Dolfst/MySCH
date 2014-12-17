@@ -1,4 +1,7 @@
 body{
- background: url(img/bg.jpg) #eaeaea no-repeat center top fixed;
- 
+ background: url(img/bg.jpg) #eaeaea no-repeat center top fixed; 
+}
+
+.pm{
+margin-bottom:105px;
 }

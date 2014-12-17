@@ -62,6 +62,6 @@
 		</table>
             <br>
 		<div class="fieldsubmit">
-			<button type="submit" name="submit" class="btn btn-info"><span>[not-aviable=comments]<i class="fa fa-comment-o"></i> Добавить[/not-aviable][aviable=comments]Изменить[/aviable]</span></button>
+			<button type="submit" name="submit" class="btn btn-sm btn-info btn_mb"><span>[not-aviable=comments]<i class="fa fa-comment-o"></i> Добавить[/not-aviable][aviable=comments]Изменить[/aviable]</span></button>
 		</div>
 </div>

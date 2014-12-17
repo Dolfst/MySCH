@@ -1,3 +1,12 @@
+<style>
+.pict img {
+display: block;
+width: 100% \9;
+max-width: 100%;
+height: auto;
+}
+</style>
+
 <div class="base fullstory">
 	<div class="dpad">
 		<h3 class="btl"><span id="news-title"><span class="fui-arrow-right"></span>{title}</span></h3>
@@ -12,7 +21,7 @@
 		[/not-group]			
 		</div>
 		<div class="maincont">
-			{full-story}
+            <div class="pict">{full-story}</div>
 			<div class="clr"></div>
 			[edit-date]<p class="editdate"><br /><i>Новость отредактировал: <b>{editor}</b> - {edit-date}
 			<br />[edit-reason]Причина: {edit-reason}[/edit-reason]</i></p>[/edit-date]            
@@ -28,7 +37,7 @@
 		<br />
 	</div>[/related-news]
 	<div class="mlink">
-		<a class="btn btn-primary btn-sm" href="javascript:history.go(-1)"><b><i class="fa fa-arrow-circle-left"></i>  Вернуться</b></a>	
+		<a class="btn btn-primary btn-sm" href="javascript:history.go(-1)"><b><i class="fa fa-arrow-circle-left"></i>  Вернуться назад</b></a>	
 	</div>
 	[group=5]
     <br>
@@ -47,7 +56,7 @@
 </span>
     Комментарии:
     </h4>
-	<a class="btn btn-success btn-sm" href="#" onclick="$('#addcform').toggle();return false;"><b><i class="fa fa-keyboard-o fa-lg"></i> Оставить комментарий</b></a>	
+	<a class="btn btn-success btn-sm btn_mb" href="#" onclick="$('#addcform').toggle();return false;"><b><i class="fa fa-keyboard-o fa-lg"></i> Оставить комментарий</b></a>	
 </div>
 {addcomments}
 {comments}

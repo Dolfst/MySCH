@@ -6115,3 +6115,28 @@ height: 17px;
 .colortext {
 color: #fff;
 }
+
+.pm{
+margin-bottom:5px;
+}
+
+.pm a {
+color:#e1e4e7;
+}
+
+.pm_list a {
+color:#2f5354;  
+ }
+        
+.btn_mb{
+margin-bottom:20px;   
+}
+
+.profile_link a {
+color:#e1e4e7;
+}
+
+.profile_link a:hover {
+color:#16a085;
+border-radius: 4px;
+}

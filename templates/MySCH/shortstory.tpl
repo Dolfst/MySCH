@@ -1,7 +1,16 @@
+<style>
+img{
+display: block;
+width: 100% \9;
+max-width: 100%;
+height: auto;
+}
+</style>
+
 <div class="base shortstory">
 	<div class="dpad">
 		<h3 class="btl"><span class="fui-arrow-right"></span>[full-link]{title}[/full-link]</h3>
-        <small><div class="nav"><span class="fui-tag"></span> Категория: {link-category} | <span class="fui-eye"></span>  Просмотры: {views} | <span class="fui-calendar"></span>  Дата: [day-news]{date}[/day-news] | <span class="fui-bubble"></span>  Комментарии: [com-link]{comments-num}[/com-link] <br> <span class="fui-user"></span>  Автор: {author}</div></small>
+        <small><div class="nav"><span class="fui-tag"></span> Категория: {link-category} | <span class="fui-eye"></span>  Просмотры: {views} | <span class="fui-calendar"></span>  Дата: [day-news]{date}[/day-news] | <span class="fui-bubble"></span>  Комментарии: [com-link]{comments-num}[/com-link] <span class="fui-user"></span>  Автор: {author}</div></small>
 		<div class="bhinfo">
 		[not-group=5]
            <small>
@@ -20,7 +29,7 @@
 	</div>
 	<div class="mlink">
         <br>
-		[full-link]<span class="btn btn-lg btn-primary"><span class="fui-document"></span><b>Подробнее</b></span>[full-link]	
+        [full-link]<span class="btn btn-lg btn-primary"><span class="fui-document"></span><b>Подробнее</b></span>[/full-link]	
 		
 		<div class="mlarrow">&nbsp;</div>		
 	</div>

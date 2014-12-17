@@ -1,10 +1,10 @@
 <div class="col-xs-12 col-sm-6 col-md-8"> 
 <article class="post static">
   <h2>Персональные сообщения</h2>
-    <div class="btn btn-sm btn-inverse">[inbox]Входящие сообщения[/inbox]</div> <br /> [outbox]<div class="btn btn-sm btn-inverse">Отправленные сообщения[/outbox]</div> <br />[new_pm]Отправить сообщение[/new_pm]</div>
+    <button class="btn btn-sm btn-inverse pm">[inbox]Входящие сообщения[/inbox]</button> <br /> [outbox]<button class="btn btn-sm btn-inverse pm">Отправленные сообщения[/outbox]</button> <br /> <button class="btn btn-sm btn-inverse pm">[new_pm]Отправить сообщение[/new_pm]</button>
 </article>
 [pmlist]
-<div class="ux-form">
+<div class="ux-form pm_list">
   <h3>Список сообщений</h3>
   {pmlist}
 </div>
@@ -16,7 +16,7 @@
       <li><div class="form-group"><input placeholder="Получатель" type="text" name="name" value="{author}" class="form-control"></div></li>
     <li><div class="form-group"><input placeholder="Тема" type="text" name="subj" value="{subj}" class="form-control"></div></li>
       <li>{editor}</li>
-      <li><p><input type="checkbox" name="outboxcopy" value="1"> Сохранить сообщение в папке "Отправленные"></p></li>
+      <li><p><input type="checkbox" name="outboxcopy" value="1"> Сохранить сообщение в папке "Отправленные"</p></li>
     [sec_code]
     <li>
       <div class="c-captcha-box">
@@ -36,7 +36,7 @@
     [/recaptcha]
   </ul>
   <div class="submitline">
-    <button class="btn" name="add" type="submit" name="submit">Отправить сообщение</button>
+    <button class="btn btn_mb" name="add" type="submit" name="submit"><i class="fa fa-paper-plane"></i> Отправить</button>
   </div>
 </div>
 [/newpm]
